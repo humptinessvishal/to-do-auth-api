@@ -93,7 +93,7 @@ app.post("/register", async (req, res) => {
 });
 
 app.get("/login", (req, res) => {
-    return res.render("login");
+    return res.send("login");
 });
 
 app.post("/login", (req, res) => {
